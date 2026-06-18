@@ -13,7 +13,7 @@ SendMode "Input"
 SendInput "e"
 }
 
-;Below this is the afk script
+;Below this comment is the afk script.
 Loop
 {
  Sleep 300000
@@ -33,8 +33,8 @@ SendMode "Input"
   Sleep 10
  SendInput "s"
 
-; WinActivate "Dolphin 5.0-19368 | JIT64 DC | OpenGL | HLE | Pikmin 2 (GPVE01)"
+; WinActivate "Application Name"
 
-; Use the sport to activate another game because I mainly use this to play a game while auto farming.
+; Above line is commented out, optional application switchback if needed. Kind of jarring and can lock input if input is sent while focus-swap is happening.
 
 }
